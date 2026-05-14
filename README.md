@@ -48,10 +48,21 @@ $$
 $$
 
 The corresponding KKT system is:
-$$
-\begin{bmatrix}Q & A^T \\ A & 0\end{bmatrix}\begin{bmatrix}x\\ \lambda\end{bmatrix}=\begin{bmatrix}-q \\ b\end{bmatrix}
-$$
-
+```math
+\begin{bmatrix}
+Q & A^T \\
+A & 0
+\end{bmatrix}
+\begin{bmatrix}
+x \\
+\lambda
+\end{bmatrix}
+=
+\begin{bmatrix}
+-q \\
+b
+\end{bmatrix}
+```
 
 ## Implementation Pipeline
 
